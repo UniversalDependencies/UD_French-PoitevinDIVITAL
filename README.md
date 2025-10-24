@@ -1,6 +1,6 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/contributing/release_checklist.html#the-readme-file) for README guidelines) ...
+UD_French-PoitevinDIVITAL is a manually corrected treebank of Poitevin-Saintongeais consisting of sentences from several genres.
 
 
 # Introduction
