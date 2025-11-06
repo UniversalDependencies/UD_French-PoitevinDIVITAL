@@ -1,4 +1,4 @@
-# newdoc id = contesmarais46
+# newdoc_id = contesmarais46
 # title = Contes du marais
 # author = Bidaude Bernadéte, Le Quellec Loïc
 # source = Bidaude, Bernadéte et Le Quellec, Loïc (1994), "Contes du marais". Mougon, Geste Éditions.
@@ -524,7 +524,7 @@
 6	maraes	marae	NOUN	_	_	4	obj	_	Gloss=marais|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	Gloss=_
 
-# newdoc id = coulun-1
+# newdoc_id = coulun-1
 # title = Coulun-1
 # author = Bidaude Bernadéte, Le Quellec Loïc
 # source = Bidaude, Bernadéte et Le Quellec, Loïc (1994), "Contes du marais". Mougon, Geste Éditions.
@@ -669,7 +669,7 @@
 11	borc	borc	NOUN	_	_	7	obl	_	glose=bourg|SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	glose=.
 
-# newdoc id = feltin-20220308_tr_pos
+# newdoc_id = feltin-20220308_tr_pos
 # title = Apelance aus candidats çhi vedriant sauvàe lés parlanjhes réjhiounàus
 # translator = Stéphane Boudeau
 # source = Feltin-Palas, Michel, 8 March 2022, Adresse aux candidats qui prétendent vouloir sauver les langues régionales (Chronique Sur le bout des langues disseminated via email)
@@ -1803,7 +1803,7 @@
 20	onour	onour	NOUN	_	_	18	obj	_	Gloss=honneur|SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	Gloss=.
 
-# newdoc id = leprincot-1
+# newdoc_id = leprincot-1
 # title = Le Prinçot
 # translator = Martin-Minaret, Nicolas
 # source = Saint-Exupéry, Antoine de (1943), 2023, Le Prençot. Editions des régionalismes (tr. Nicolas Martin-Minaret).
@@ -2412,7 +2412,7 @@
 
 # sent_id = daudet_lundi_tr_pos.1.split1
 # text = LA DÉRNÉRE CLLASSE ( lai d' in petit Élzacén )
-# newdoc id = daudet_lundi_tr_pos
+# newdoc_id = daudet_lundi_tr_pos
 # title = Les contes du lundi
 # translator = Daudet, Alphonse
 # source = Daudet, Alphonse 1873, Contes du lundi (extraits). Paris, Lemerre.
@@ -2897,7 +2897,7 @@
 44	remoullais	remoullai	ADJ	_	_	43	acl	_	_
 45	.	.	PUNCT	_	_	13	punct	_	_
 
-# newdoc id = fineamour
+# newdoc_id = fineamour
 # title = Fine Amour
 # translator = Gautier, Michel
 # source = Gautier, Michel (2004), Fine Amour. La Crèche, Geste Editions.
@@ -2975,7 +2975,7 @@
 
 # sent_id = daudet_lettres_tr_pos.96
 # text = qu' a se dessit , quement ae z- i pu tenir çhi deden ?
-# newdoc id = daudet_lettres_tr_pos
+# newdoc_id = daudet_lettres_tr_pos
 # title = Les lettres de mon moulin
 # translator = Daudet, Alphonse
 # source = Daudet, Alphonse (1869) 1877, Lettres de mon moulin, Paris, J. Hetzel et Cie (Gallica).
@@ -3150,7 +3150,7 @@
 7	achariants	achariant	ADJ	_	_	3	ccomp	_	Gloss=attentifs|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	Gloss=_
 
-# newdoc id = feltin-20220207_tr_pos
+# newdoc_id = feltin-20220207_tr_pos
 # title = Acotàe lés parlanjhes réjhiounàus, ol ét acotàe in drét de l’Oume
 # translator = Stéphane Boudeau
 # source = Feltin-Palas, Michel, 7 February 2023 Défendre les langues régionales, c’est défendre un droit de l’Homme (Chronique Sur le bout des langues disseminated via email)
@@ -4787,7 +4787,7 @@
 26	»	»	PUNCT	_	_	19	punct	_	Gloss=»
 27	.	.	PUNCT	_	_	10	punct	_	Gloss=.
 
-# newdoc id = PierreLoup
+# newdoc_id = PierreLoup
 # title = Pére é le louc
 # translator = Michel Cardineau
 # source = Prokofiev, Sergueï (1936), Pierre et le loup, 1re exécution : Moscou, 2 mai 1936, sous la direction du compositeur.
@@ -6001,7 +6001,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 8	»	_	PUNCT	_	_	1	punct	_	Gloss=»
 
-# newdoc id = Parabole
+# newdoc_id = Parabole
 # title = Parabole de l’Enfant Prodigue, toute en béa lingage povtein dau zévirons de Sen-Moixent, compousée pr’in Reboutrou
 # translator = Anonyme
 # source = La parabole de l’enfant prodigue, 1800, Niort, L. Favre. (tr. Louis-Isaac Lemaistre de Sacy).
@@ -6179,7 +6179,7 @@
 21	d’cit	_	VERB	_	_	12	conj	_	_
 22	.	.	PUNCT	_	_	12	punct	_	_
 
-# newdoc id = ventsnordét
+# newdoc_id = ventsnordét
 # title = Lés vents de nordét
 # translator = Anonyme
 # source = Atlas des langues de France, LIMSI
@@ -6377,7 +6377,7 @@
 24	deùs	deùs	NOUN	_	_	21	obl	_	Gloss=deux|SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
-# newdoc id = gascougne
+# newdoc_id = gascougne
 # title = Decameron : Novéle IX
 # translator = Stéphane Boudeau
 # source = Boccacce, Giovanni (1353) 1884, Decameron : nouvelle 9. Wikisource
