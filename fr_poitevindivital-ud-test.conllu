@@ -2410,8 +2410,6 @@
 13	résounablle	résounablle	ADJ	_	_	11	amod	_	Gloss=raisonnable|SpaceAfter=No
 14	…	…	PUNCT	_	_	7	punct	_	Gloss=…
 
-# sent_id = daudet_lundi_tr_pos.1.split1
-# text = LA DÉRNÉRE CLLASSE ( lai d' in petit Élzacén )
 # newdoc_id = daudet_lundi_tr_pos
 # title = Les contes du lundi
 # translator = Daudet, Alphonse
@@ -2426,6 +2424,8 @@
 # language_glottolog = Poitevin-Saintongeais (poit1241)
 # language_variety = Poitevin (poit1240)
 # sample_type = excerpts
+# sent_id = daudet_lundi_tr_pos.1.split1
+# text = LA DÉRNÉRE CLLASSE ( lai d' in petit Élzacén )
 # translation = LA DERNIÈRE CLASSE(récit d’un petit alsacien)
 # annotation = double
 1	LA	le	DET	_	_	3	det	_	_
@@ -2973,8 +2973,6 @@
 6	pllunbs	pllunb	NOUN	_	_	0	root	_	Gloss=plombs|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	Gloss=_
 
-# sent_id = daudet_lettres_tr_pos.96
-# text = qu' a se dessit , quement ae z- i pu tenir çhi deden ?
 # newdoc_id = daudet_lettres_tr_pos
 # title = Les lettres de mon moulin
 # translator = Daudet, Alphonse
@@ -2989,6 +2987,8 @@
 # language_glottolog = Poitevin-Saintongeais (poit1241)
 # language_variety = Poitevin (poit1240)
 # sample_type = excerpts
+# sent_id = daudet_lettres_tr_pos.96
+# text = qu' a se dessit , quement ae z- i pu tenir çhi deden ?
 # translation = qu'elle se dit, comment ai-je pu tenir ici dedans ?
 # annotation = single
 1	qu'	que	SCONJ	_	_	4	mark	_	glose=qu
