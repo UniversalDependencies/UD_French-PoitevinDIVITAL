@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>239</sentences><tokens>5382</tokens><words>5484</words><fused>102</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>239</sentences><tokens>5382</tokens><words>5484</words><fused>102</fused></test>
+  </size>
+  <lemmas unique="1224" /><!-- le, ,, de, ., a, que, être, in, o, pr, pi, en, i, se, den -->
+  <forms unique="1485" /><!-- ,, de, le, ., lés, a, la, l', pr, pi, que, en, in, i, o -->
+  <fusions unique="8" /><!-- daus, dau, au, aus, Savàu, des, ou, quou -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">323</tag><!-- tot, réjhiounàu, grand, àutre, petit, françaes, lénghistique, cunstituciounàu, eùropéyén, ouficiàu -->
+    <tag name="ADP">681</tag><!-- de, a, pr, en, den, su, ac, sen, à, acuntre -->
+    <tag name="ADV">317</tag><!-- pa, pu, bé, tot, jha, trjhou, vrae, dun, si, bén -->
+    <tag name="AUX">161</tag><!-- être, étre, avoer, _, avér, avàe, aetre, aver -->
+    <tag name="CCONJ">144</tag><!-- pi, é, mé, obe, o, et, màeme, ni, bllamàe, mais -->
+    <tag name="DET">771</tag><!-- le, in, dau, çhau, mun, les, sun, de, lés, tot -->
+    <tag name="INTJ">9</tag><!-- mac, Be, a, dame, hope, jhé, oéll, poént -->
+    <tag name="NOUN">911</tag><!-- parlanjhe, drét, osea, louc, poént, abre, chat, funs, loe, munde -->
+    <tag name="NUM">30</tag><!-- deùs, 1, 14, 2, deux, sis, 11, 13, 16, 1948 -->
+    <tag name="PRON">535</tag><!-- o, i, le, se, çhi, me, a, li, qui, que -->
+    <tag name="PROPN">109</tag><!-- Pére, France, oume, Amél, Chipre, ONU, Bllanchét, Eùrope, Felipe, Finlande -->
+    <tag name="PUNCT">791</tag><!-- ,, ., «, :, », -, ', !, ?, ( -->
+    <tag name="SCONJ">136</tag><!-- que, si, queme, pisque, désque, pasque, pi, qu, quant, qui -->
+    <tag name="VERB">563</tag><!-- _, faere, dire, pere, voer, alàe, aver, paechàe, avoer, entendre -->
+    <tag name="X">3</tag><!-- z, n -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="6">
+    <feat name="ExtPos" value="ADP" upos="ADP">1</feat><!-- A -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,PRON,VERB">22</feat><!-- in, rén, de, a, bé, Sivant, bae, durant, entandis, içhi -->
+    <feat name="ExtPos" value="DET" upos="ADJ,ADV">3</feat><!-- pllén, çheùques -->
+    <feat name="ExtPos" value="NOUN" upos="ADJ">1</feat><!-- tot -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,CCONJ">11</feat><!-- pr, Quoure, a, Màeme, avant, durant, enpràe -->
+    <feat name="ExtPos" value="VERB" upos="VERB">1</feat><!-- mét -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="39">
+    <dep name="acl">25</dep>
+    <dep name="acl:relcl">75</dep>
+    <dep name="advcl">101</dep>
+    <dep name="advmod">270</dep>
+    <dep name="amod">238</dep>
+    <dep name="appos">20</dep>
+    <dep name="aux">42</dep>
+    <dep name="aux:pass">14</dep>
+    <dep name="case">570</dep>
+    <dep name="cc">149</dep>
+    <dep name="ccomp">45</dep>
+    <dep name="compound">7</dep>
+    <dep name="conj">204</dep>
+    <dep name="cop">101</dep>
+    <dep name="csubj">3</dep>
+    <dep name="dep">2</dep>
+    <dep name="det">758</dep>
+    <dep name="discourse">15</dep>
+    <dep name="dislocated">17</dep>
+    <dep name="expl">79</dep>
+    <dep name="expl:pv">32</dep>
+    <dep name="fixed">40</dep>
+    <dep name="flat">16</dep>
+    <dep name="iobj">38</dep>
+    <dep name="mark">213</dep>
+    <dep name="nmod">211</dep>
+    <dep name="nsubj">395</dep>
+    <dep name="nummod">18</dep>
+    <dep name="obj">237</dep>
+    <dep name="obj:lvc">10</dep>
+    <dep name="obl">297</dep>
+    <dep name="obl:arg">35</dep>
+    <dep name="obl:mod">1</dep>
+    <dep name="orphan">1</dep>
+    <dep name="parataxis">59</dep>
+    <dep name="punct">791</dep>
+    <dep name="root">239</dep>
+    <dep name="vocative">6</dep>
+    <dep name="xcomp">110</dep>
+  </deps>
+</treebank>
