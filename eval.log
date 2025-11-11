@@ -1,0 +1,51 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_French-PoitevinDIVITAL:
+commit 230cd7be15739de1e0409a4803546dffc9dc313c
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 14:56:31 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'fr_poitevindivital'
+Language code (from CoNLL-U file name) = 'fr'
+Found the following data files: fr_poitevindivital-ud-test.conllu
+Size: counted 5484 of 5484 words (nodes).
+Size: min(0, log((N/1000)**2)) = 3.40366952340014.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 39 out of 5484 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 33 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-PoitevinDIVITAL/fr_poitevindivital-ud-test.conllu
+[Line 19 Sent contesmarais46.4]: [L3 Warning pron-det-without-prontype] The word 'Ol' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 23 Sent contesmarais46.4]: [L3 Warning pron-det-without-prontype] The word 'le' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 29 Sent contesmarais46.4]: [L3 Warning pron-det-without-prontype] The word 'voure' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 31 Sent contesmarais46.4]: [L3 Warning pron-det-without-prontype] The word 'ol' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 34 Sent contesmarais46.4]: [L3 Warning pron-det-without-prontype] The word 'lés' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 36 Sent contesmarais46.4]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 40 Sent contesmarais46.4]: [L3 Warning pron-det-without-prontype] The word 'le' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 44 Sent contesmarais46.4]: [L3 Warning pron-det-without-prontype] The word 'lés' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 52 Sent contesmarais46.6]: [L3 Warning pron-det-without-prontype] The word 'Le' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 54 Sent contesmarais46.6]: [L3 Warning pron-det-without-prontype] The word 'trtouts' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 1307
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.3) = 0.0333333333333333
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.246365815372492) = 0.091246598286108
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
+(weight=0.111111111111111) * (score{udeprels}=0.891891891891892) = 0.0990990990990991
+(TOTAL score=0.43974293776284) * (availability=1) * (validity=1) = 0.43974293776284
+STARS = 2
+UD_French-PoitevinDIVITAL	0.43974293776284	2
