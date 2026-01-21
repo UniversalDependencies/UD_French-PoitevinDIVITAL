@@ -15,12 +15,17 @@ Marianne Vergez-Couret, Delphine Bernhard, Michael Nauge, Myriam Bras, Pablo Rui
 Details on the pre-annotation and manual correction process will follow later.
 
 # Acknowledgments
-Acknowledgments
+
 The following people were involved in the creation of this dataset:
+
 Sauvane Agnès (data annotation, guidelines)
+
 Estèle Dupuy (data annotation, guidelines)
+
 Louis Lièvre (data annotation, guidelines)
+
 Marianne Vergez-Couret (data annotation, guidelines, campaign management)
+
 Cristina Garcia Holgado (advice on annotations, data collection, selection and pre-processing)
 
 ## References
